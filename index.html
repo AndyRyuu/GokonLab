@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+    <html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="assets/css/animate.min.css">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="./assets/css/styles.css">
+        <link rel="stylesheet" href="./assets/css/drawer.css">
+
+        <!--==================== TAB ICON ====================-->
+        <link rel="icon" href="./assets/img/icon.ico">
+
+        
+        <!--==================== MAIN JS ====================-->
+        <script src="./assets/js/main.js" defer></script>
+        <script src="./assets/js/microCMS.js" defer></script>
+
+        <!--==================== SWIPER JS ====================-->
+        <script src="./assets/js/iscroll.min.js"></script>
+        <script src="./assets/js/drawer.js"></script>
+        <script src="./assets/js/drawer.min.js"></script>
+        <script src="./assets/js/swiper-bundle.min.js"></script>
+        <script src="./assets/js/jquery.min.js"></script>
+        <!--==================== HEADER ====================-->
+        <title>北陸先端科学技術大学院大学 郷右近英臣 ｜ GOKON Hideomi</title>
+
+    </head>
+    <body class="drawer drawer--top vsc-initialized drawer-close">    
+    <div id="top" class="wrapper">
+
+    <header>
+
+        <div class="sp_display">
+            <div class="drawer-toggle drawer-hamburger" id="nav-toggle">
+                <span class="sr-only">toggle navigation</span>
+                <span class="drawer-hamburger-icon"></span>
+            </div>
+
+            <nav class="drawer-nav">
+                <ul class="drawer-menu" style="transition-timing-function: cubic-bezier(0.1, 0.57, 0.1, 1); transition-duration: 0ms; transform: translate(0px, 0px) translateZ(0px);">
+                    <li><a class="drawer_link" href="#news">News</a></li>
+                    <li><a class="drawer_link" href="#profile">Profile</a></li>
+                    <li><a class="drawer_link" href="#research">Research</a></li>
+                    <li><a class="drawer_link" href="#education">Education</a></li>
+                    <li><a class="drawer_link" href="#class">Member</a></li>
+                    <li><a class="drawer_link" href="#access">Access</a></li>
+                </ul>
+            </nav>
+            <div class="header__inner"><div class="vsc-controller"><template shadowrootmode="open">
+            <style>
+            @import "chrome-extension://nffaoalbilbmmfgbnbgppjihopabppdk/shadow.css";
+            </style>
+            <!-- <div id="controller" style="top:0px; left:0px; opacity:0.3">
+                <span data-action="drag" class="draggable">1.00</span>
+                <span id="controls">
+                <button data-action="rewind" class="rw">«</button>
+                <button data-action="slower">−</button>
+                <button data-action="faster">+</button>
+                <button data-action="advance" class="rw">»</button>
+                <button data-action="display" class="hideButton">×</button>
+                </span>
+            </div> -->
+        </template></div>
+                <h1><a class="drawer_link" href="#">郷右近英臣 ｜ 研究室HP</a></h1>
+                <video class="video" src="./assets/movie/gokonLab.mp4" loop="" autoplay="" muted=""></video>
+                <div class="header__catch wow animate__ animate__slideInLeft" style="visibility: visible; animation-name: slideInLeft;">
+                    データに基づき災害による社会へのインパクトを最小化
+                </div>
+            </div>
+        </div>
+
+        <div class="header__inner pc_display"><div class="vsc-controller">
+            <template shadowrootmode="open">
+                <style>
+                @import "chrome-extension://nffaoalbilbmmfgbnbgppjihopabppdk/shadow.css";
+                </style>
+
+                <div id="controller" style="top:64px; left:0px; opacity:0.3">
+                <span data-action="drag" class="draggable">1.00</span>
+                <span id="controls">
+                    <button data-action="rewind" class="rw">«</button>
+                    <button data-action="slower">−</button>
+                    <button data-action="faster">+</button>
+                    <button data-action="advance" class="rw">»</button>
+                    <button data-action="display" class="hideButton">×</button>
+                </span>
+                </div>
+            </template>
+        </div>
+            <div class="nav">
+                <h1>
+                    <a href="#top">郷右近英臣 ｜ 研究室HP</a>
+                </h1>
+                <ul>
+                    <li><a class="anchor nav__hover" href="#news">News</a></li>
+                    <li><a class="anchor nav__hover" href="#profile">Profile</a></li>
+                    <li><a class="anchor nav__hover" href="#research">Research</a></li>
+                    <li><a class="anchor nav__hover" href="#education">Education</a></li>
+                    <li><a class="anchor nav__hover" href="#class">Member</a></li>
+                    <li><a class="anchor nav__hover" href="#acccess">Access</a></li>
+                    <li><a class="btn_over" href="index_en.html"><img src="./assets/img/en.png" alt="English" width="100%"></a></li>
+                </ul>
+            </div>
+            <video class="video" src="./assets/movie/gokonLab.mp4" loop="" autoplay="" muted=""></video>
+            <div class="header__catch wow animate__ animate__slideInLeft" style="visibility: visible; animation-name: slideInLeft;">
+                データに基づき災害による社会へのインパクトを最小化
+            </div>
+        </div>
+    </header>   
+
+
+
+    <!-- ==================== MAIN ==================== -->
+    <main class="outer">
+        
+        <section id="news">
+            <div class="content content_anker">
+                <div class="inner">
+                    <div class="heading__outer">
+                        <h2>News</h2>
+                    </div>
+
+                    <div class="news__area" id="news_microCMS">
+
+                                                                                
+                        <ul>
+                            <li class="news">News</li>
+                            <li>2023/??/??<span>&nbsp;NEW!</span></li>
+                            <li>
+                                <a class="text_link" href="#">情報が適切に取得できておりません．</a>
+                            </li>
+                        </ul>
+                        
+                                                                                
+                    </div>
+                    <br>
+                    <dl id="acMenu">
+                        <dt><a href="./news.html">View More</a></dt>
+                    </dl>
+
+
+                </div>
+            </div>
+        </section>
+
+        <section id="research">
+            <div class="content content_anker">
+                <div class="inner">
+                <div class="heading__outer">
+                <h2>Research</h2>
+                </div>
+                <div class="carousel-item">
+                    <img
+                        class="carousel-item__img"
+                        src="https://images.pexels.com/photos/708392/pexels-photo-708392.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                        alt="people"
+                    />
+                    <div class="carousel-item__details">
+                        <div class="controls">
+                        <span class="fas fa-play-circle"></span>
+                        <span class="fas fa-plus-circle"></span>
+                        </div>
+                        <h5 class="carousel-item__details--title">Descriptive Title</h5>
+                        <h6 class="carousel-item__details--subtitle">Date and Duration</h6>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img
+                        class="carousel-item__img"
+                        src="https://images.pexels.com/photos/1785001/pexels-photo-1785001.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                        alt="people"
+                    />
+                    <div class="carousel-item__details">
+                        <div class="controls">
+                        <span class="fas fa-play-circle"></span>
+                        <span class="fas fa-plus-circle"></span>
+                        </div>
+                        <h5 class="carousel-item__details--title">Descriptive Title</h5>
+                        <h6 class="carousel-item__details--subtitle">Date and Duration</h6>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img
+                        class="carousel-item__img"
+                        src="https://images.pexels.com/photos/417344/pexels-photo-417344.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                        alt="people"
+                    />
+                    <div class="carousel-item__details">
+                        <div class="controls">
+                        <span class="fas fa-play-circle"></span>
+                        <span class="fas fa-plus-circle"></span>
+                        </div>
+                        <h5 class="carousel-item__details--title">Descriptive Title</h5>
+                        <h6 class="carousel-item__details--subtitle">Date and Duration</h6>
+                    </div>
+                </div>
+                <br>
+                <dl id="acMenu">
+                    <br>
+                    <dt><a href="./news.html">View More</a></dt>
+                </dl>
+            </div>
+        </div>
+        </section>
+               
+    
+
+        <section id="profile">
+            <div class="content content_anker">
+                <div class="inner">
+                    <div class="heading__outer">
+                        <h2>Profile</h2>
+                    </div>
+                    <div class="profile__area">
+                        <div class="tab-panel">
+                            <p><!--タブ--></p>
+                            <ul class="tab-group">
+                                <li class="tab tab-A is-active">略歴</li>
+                                <!-- <li class="tab tab-B">資格等</li> -->
+                                <li class="tab tab-B">研究業績</li>
+                                <li class="tab tab-C">著書</li>
+                                <li class="tab tab-D">競争的資金</li>
+                                <li class="tab tab-E">社会・学会活動</li>
+                                <li class="tab tab-F">受賞</li>
+                            </ul>
+                            <p><!--タブを切り替えて表示するコンテンツ--></p>
+                                <div class="panel-group">
+                                    <div class="panel tab-A is-show">
+                                    <ul>
+                                        <li><span>略歴</span></li>
+                                        <li>2010年3月　東北大学　学士</li>
+                                        <li>2012年3月　東北大学　修士</li>                                        
+                                        <li>2015年3月　東北大学　博士（日本学術振興会特別研究員DC1）</li>
+                                        <li>2015年4月　東京大学生産技術研究所都市基盤安全工学国際研究センター助教</li>
+                                        <li>20  年 月　北陸先端科学技術大学院大学 先端科学技術研究科 准教授</li>
+                                    </ul>
+                                </div>
+                                <!-- <div class="panel tab-B">
+                                    <ul>
+                                        <li><span>資格等</span></li>
+                                        <li>日本学術振興会特別研究員DC1</li>
+                                    </ul> -->
+                                </div>
+                                <div class="panel tab-B">
+                                    <ul>
+                                        <li><span>学術論文（一部）</span></li>
+                                        <li>Buya, S.; Usanavasin, S.; Gokon, H.; Karnjana, J. An Estimation of Daily PM2.5 Concentration in Thailand Using Satellite Data at 1-Kilometer Resolution. Sustainability 2023, 15, 10024. https://doi.org/10.3390/su151310024</li>
+                                        <li>J. Xiao, T. Yuizono and H. Gokon, "Numerical Simulation of Winter Microclimate and Thermal Comfort of an Asymmetric Canyon in the Urban Square Area," 2021 5th International Conference on Vision, Image and Signal Processing (ICVISP), Kuala Lumpur, Malaysia, 2021, pp. 201-205, doi: 10.1109/ICVISP54630.2021.00044.</li>
+                                        <li>K.  Kyaw, C.  Gadagamma, K.  Kyaw, H.  Gokon, O.  Murao, and K.  Meguro, “Seismic Fragility Analysis of Poorly Built Timber Buildings in Yangon Slum Areas,” J. Disaster Res., Vol.15 No.3, pp. 407-415, 2020</li>
+                                        <li>Gokon, H.; Endo, F.; Koshimura, S. Detecting Urban Floods with Small and Large Scale Analysis of ALOS-2/PALSAR-2 Data. Remote Sens. 2023, 15, 532. https://doi.org/10.3390/rs15020532</li>
+                                        <li>Eka Juliafad; Hideomi Gokon; Rusnardi Rahmat Putra. DEFECT STUDY ON SINGLE STOREY REINFORCED CONCRETE BUILDING IN WEST SUMATRA: BEFORE AND AFTER 2009 WEST SUMATRA EARTHQUAKE. INTERNATIONAL JOURNAL OF GEOMATE 2021, 20, 205-212.</li>
+                                        <li>Gokon, Hideomi, et al. "A method for detecting buildings destroyed by the 2011 Tohoku earthquake and tsunami using multitemporal TerraSAR-X data." IEEE Geoscience and Remote Sensing Letters 12.6 (2015): 1277-1281.</li>
+                                        <li>Liu, Wen, et al. "Extraction of tsunami-flooded areas and damaged buildings in the 2011 Tohoku-oki earthquake from TerraSAR-X intensity images." Earthquake Spectra 29.1_suppl (2013): 183-200.</li>
+                                        <!-- <li>esearch mapは<a href="https://researchmap.jp/h_gokon" target="_blank" style="text-decoration: underline; text-decoration-color: blue;">こちら</a></li> -->
+                                        <dl id="acMenu">
+                                            <dt><a href="https://researchmap.jp/h_gokon" target="_blank">research map</a></dt>
+                                        </dl>
+                                    </ul>
+                                </div>
+                                <div class="panel tab-C">
+                                    <ul>
+                                        <li><span>活動</span></li>
+                                        <li>復興まちづくりにおける津波数値シミュレーションの活用-仙台市沿岸部，東日本大震災を分析する2 震災と人間・まち・記録，第2部，第4章，2013年</li>
+                                        <li>東北地方を襲った津波の流况–名取川河口周辺の事例，pp.143-154，2013年</li>
+                                        <li>東日本大震災を分析する1 地震津波のメカニズムと被害の実態，第3 部1 津波と洪水の被害，pp-134-143，2013年</li>
+                                        <li>Application of Remote Sensing for Tsunami Disaster, Remote Sensing of Planet Earth, Dr Yann Chemin (Ed.)，2012.</li>
+                                    </ul>
+                                </div>
+                                <div class="panel tab-D">
+                                    <ul>
+                                        <li><span>科研費</span></li>
+                                        <li>科研費（基盤研究(A)），シングルV/mレベル高性能グラフェン電界センサによる襲雷予測基盤技術の創生，分担者，2023－2027年度</li>
+                                        <li>科研費（若手研究），リモートセンシングによる災害時の意思決定の高度化に関する研究，代表者，2020－2022年度</li>
+                                        <li>科研費（若手研究(B)），リモートセンシングの社会実装による災害レジリエンス向上についての研究，代表者，2016－2019年度</li>
+                                        <li>科研費（研究活動スタート支援），L-バンド合成開口レーダによる大規模自然災害の早期被害把握システムの構築，代表者，2015年度</li>
+                                        <li>科研費（特別研究員奨励費），２０１１年東日本大震災の実態に基づいた津波被災地の早期探索技術の開発，代表者，2012-2015年度</li>
+                                    </ul>
+                                </div>
+                                <div class="panel tab-E">
+                                    <ul>
+                                        <li>災害に強い社会を支える工学研究グループ50周年記念シンポジウム，運営参加・支援，2017年12月</li>
+                                        <li>The 16th International Symposium on New Technology for UrbanSafety of Mega Cities in Asia (USMCA2016)，事務局，2017年11月</li>
+                                        <li>The 15th International Symposium on New Technology for UrbanSafety of Mega Cities in Asia (USMCA2016)，事務局，2016年11月</li>
+                                        <li>The 3rd International Conference on Computational Design inEngineering(CODE 2015)，事務局，2015年12月</li>
+                                        <li>The 14th International Symposium on New Technology for Urban Safety of Mega Cities in Asia (USMCA2015)，事務局，2015年10月</li>
+                                    </ul>
+                                </div>
+                                <div class="panel tab-F">
+                                    <ul>
+                                        <li>■ Coastal Engineering Journal Citation Award of 2016，日本土木学会，2017年10月</li>
+                                        <li>■ 建設工学研究奨励賞，一般財団法人建築工学研究振興会，2015年5月</li>
+                                        <li>■ 2011年度土木学会東北支部研究奨励賞，土木学会東北支部，2012年5月</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="research ex">
+            <div class="content content_anker">
+                <div class="inner">
+                <div class="heading__outer">
+                <h2>Research</h2>
+                </div>
+                <div class="research__area">
+                    <img decoding="async" src="./assets/img/research_intro_01.png" alt="" width="100%">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <img decoding="async" src="./assets/img/research_intro_02.png" alt="" width="100%">
+                </div>
+                <br>
+                <div class="video-container">
+                    <div class="video-wrapper">
+                      <iframe src="https://www.youtube.com/embed/xpEMv3jPq_8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                <br>
+                <dl id="acMenu">
+                    <dt><a href="lab.html">View More</a></dt>
+                </dl>
+            </div>
+
+        </section> 
+
+        <section id="education">
+            <div class="content content_anker">
+                <div class="inner">
+                    <div class="heading__outer">
+                        <h2>Education</h2>
+                    </div>
+                    <!-- <p style="text-align: center;"><span style="font-size: 16pt;">Students</span></p> -->
+                    <br>
+                    <ul>
+                        <li style="list-style-type: none;">
+                            <p>石川キャンパス（16名）</p>
+                        </li>
+                    </ul>
+                    <hr>
+                    <span>■ 研究補助員</span><br>
+                    岡田 禎子
+                    <br>                    
+                    <span>■ 博士</span><br>
+                    1年　BUYA Suhaimee
+                    <br>
+                    1年　YANG Zhenyu
+                    <br>
+                    1年　YANG Yifan
+                    <br>
+                    <span>■ 修士</span><br>
+                    2年　大平 尚輝
+                    <br>
+                    2年　白石 幸己
+                    <br>
+                    2年　関谷 英喜
+                    <br>
+                    2年　名倉 航大
+                    <br>
+                    2年　吉田 慧
+                    <br>
+                    2年　LIU Ziheng
+                    <br>
+                    1年　尾嶌 聖矢
+                    <br>
+                    1年　粂 春輝
+                    <br>
+                    1年　谷口 翔香
+                    <br>
+                    1年　NURSERAMIKA Arli Ardiandy
+                    <br>
+                    1年　森本 祐規
+                    <br>
+                    1年　XIA Jiajun
+                    <br>
+                    1年　XU Yue
+                    <br>
+                    <br>
+                    <ul>
+                        <li style="list-style-type: none;">
+                            <p>東京キャンパス（7名）</p>
+                        </li>
+                    </ul>
+                    <hr>                    
+                    <span>■ 博士</span><br>
+                    1年　十川 拓也  
+                    <br>  
+                    他1名
+                    <br>               
+                    <span>■ 修士</span><br>
+                    2年　小川 明仁
+                    <br>
+                    2年　中野 森平
+                    <br>
+                    2年　中村 亮太
+                    <br>
+                    1年　伊藤 昴
+                    <br>
+                    1年　福田 勝仁
+                    <br>
+
+
+
+                    <!-- <p style="text-align: center;"><span style="font-size: 16pt;">教育指針</span></p>
+                    本研究室では、〇〇．．．
+                    <div class="illustrated_area">
+                        <img decoding="async" src="./assets/img/gokon_pic.png" alt="" width="100%"><br>
+                        <img decoding="async" src="./assets/img/gokon_pic.png" alt="" width="100%"><br>
+                        <img decoding="async" src="./assets/img/gokon_pic.png" alt="" width="100%"><br>
+                    </div> -->
+
+                </div>
+                <br>
+                <dl id="acMenu">
+                    <dt><a href="member.html">View More</a></dt>
+                </dl>
+            </div>
+        </section>
+
+        <section id="class">
+            <div class="content content_anker">
+                <div class="inner">
+                    <div class="heading__outer">
+                        <h2>Class in JAIST</h2>
+                    </div>
+                    <div class="lecture__area">
+                        <table class="lecture__table">
+                    <tbody>
+                        <tr>
+                        <th class="lecture__cell">講義科目</th>
+                        <th class="other__cell">開講時期</th>
+                        <th class="tani__cell">単位</th>
+                        </tr>
+                        <tr>
+                        <td class="lecture__cell">K213J システム科学方法論</td>
+                        <td class="other__cell">2-1</td>
+                        <td class="tani__cell">2</td>
+                        </tr>
+                        <tr>
+                        <td class="lecture__cell">K236EJ データ分析学基礎</td>
+                        <td class="other__cell">1-2</td>
+                        <td class="tani__cell">2</td>
+                        </tr>
+                        <tr>
+                        <td class="lecture__cell">K417EJ データ分析学</td>
+                        <td class="other__cell">2-1</td>
+                        <td class="tani__cell">2</td>
+                        </tr>
+                        <tr>
+                        <td class="lecture__cell">K613E 次世代知識経営徳論</td>
+                        <td class="other__cell">隔年（今年度閉講）</td>
+                        <td class="tani__cell">2</td>
+                        </tr>
+                        <tr>
+                        <td class="lecture__cell">K619E データ分析学特論</td>
+                        <td class="other__cell">隔年（今年度閉講）</td>
+                        <td class="tani__cell">2</td>
+                        </tr>
+                    </tbody>
+                    </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="access">
+            <div class="content content_anker">
+                <div class="inner">
+                    <div class="heading__outer">
+                        <h2>Access</h2>
+                    </div>
+                    <div class="map__bottom">
+                        本学までのアクセスは<a href="http://www.jaist.ac.jp/top/access/"  target="_blank">こちら</a>をご覧ください。本学に到着後は、知識科学系研究棟Ⅰ7階（K-71）にお越しください。
+                    </div>
+                    〒923-1292　石川県能美市旭台1-1 知識科学系研究棟Ⅰ 7階K-71室<br><br>
+                    <div class="iframe-content">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d429.2455347389307!2d136.59366630930802!3d36.44405226711536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff84904164defb1%3A0xf7c4265c999cff51!2z55-l6K2Y56eR5a2m56CU56m25qOfSQ!5e0!3m2!1sen!2sjp!4v1690602476431!5m2!1sen!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        <div class="bg_area"></div>
+
+        <section>
+            <div class="content">
+                <div class="inner">
+                    <div class="bnr_area">
+                        <ul>
+                            <li>
+                                <a class="btn_over" href="https://www.jaist.ac.jp/index.html" target="_blank" rel="noopener">
+                                    <img class="wow animate__animated animate__zoomIn" data-wow-delay=".25s" src="./assets/img/jaist_logo.jpg" alt="北陸先端科学技術大学院大学" width="100%">
+                                </a>
+                            </li>
+                            <li>
+                                <a class="btn_over" href="https://www.jsps.go.jp/j-grantsinaid/" target="_blank" rel="noopener">
+                                    <img class="wow animate__animated animate__zoomIn" data-wow-delay=".5s" src="./assets/img/KAKENHIlogo_M.jpg" alt="科研費" width="100%">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+        <!--==================== FOOTER ====================-->
+
+    <footer>
+        <div class="footer">
+            © GOKON Hideomi. All Rights Reserved.
+        </div>
+    </footer>
+
+    <div class="en__jp sp_display">
+        <a class="btn_over" href="index_en.html">
+            <img src="./assets/img/en.png" alt="English" width="100%">
+        </a>
+    </div>
+    <p id="page-top" style="display: none;">
+        <a class="btn_over" href="#top">
+            <img src="./assets/img/btn_top.png" alt="topImage" width="100%">
+        </a>
+    </p>
+
+
+    </body>
+</html>
